@@ -1,0 +1,19 @@
+@import '~@trend-dev/trendtech-ui/scss/trendagent/variables';
+@import '~@trend-dev/trendtech-ui/scss/trendagent/mixins';
+
+@import '~@trend-dev/trendtech-ui/scss/trendagent/paper';
+@import '~@trend-dev/trendtech-ui/scss/trendagent/pop-up';
+@import '~@trend-dev/trendtech-ui/scss/trendagent/shell-element';
+@import '~@trend-dev/trendtech-ui/scss/trendagent/tooltip';
+
+@import './components/Container/styles.scss';
+@import './components/Info/styles.scss';
+@import './components/Legend/styles.scss';
+@import './components/Points/styles.scss';
+
+.graph {
+    box-sizing: border-box;
+    * {
+        box-sizing: border-box;
+    }
+}

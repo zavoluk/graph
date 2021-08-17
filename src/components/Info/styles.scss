@@ -1,0 +1,14 @@
+@import '~@trend-dev/trendtech-ui/scss/_common/variables';
+@import '~@trend-dev/trendtech-ui/scss/_common/mixins';
+
+.info {
+   &_default {
+    &__body {
+        color: $color_black-90;
+        
+      
+        @include text-params($text-size, 'md');
+        font-weight: 600;
+    }
+   }
+}

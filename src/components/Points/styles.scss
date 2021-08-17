@@ -1,0 +1,13 @@
+.points {
+    &__point {
+        cursor: pointer;
+        transition: 0.2s;
+        stroke-width: var(--point-border-width);
+        stroke: transparent;
+        fill: var(--point-color);
+        &:hover {
+            stroke: var(--point-border-color);
+            r: var(--point-scale);
+        }
+    }
+}
